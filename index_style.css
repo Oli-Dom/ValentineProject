@@ -1,0 +1,47 @@
+html {
+  background-color: rgb(247, 201, 216);
+}
+
+header {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  #message1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  #image2 {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.heart{
+  width: 25px;
+}
+
+
+
+#message1 {
+  background-color: rgb(230, 223, 223);
+  border-style: ridge;
+  border-color: black;
+}
+
+#message2 {
+  background-color: rgb(230, 223, 223);
+  border-style: ridge;
+  border-color: black;
+}
